@@ -1,13 +1,12 @@
-/** {
-  box-sizing: border-box;
-}*/
-body {
+
+  body {
   background-color: #e5e5e5;
   margin: 0;
 }
 .nav-bar {
   height: 650px;
   width: 100%;
+  z-index: 7;
 }
 .background-nav-photo {
   background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
@@ -27,6 +26,7 @@ display: flex;
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 6;
 }
 
 .WOT-Logo img{
@@ -40,6 +40,7 @@ display: flex;
   margin-right: 35px;
 }
 .text-over-photo {
+  z-index: 5;
   color: white;
 font-family: geneva;
 margin: auto;
@@ -48,18 +49,22 @@ align-content: center;
 text-align: center;
 }
 .your-digital {
+  z-index: 4;
   position: relative;
     font-size: 25px;
 }
 .workshop {
-  font-size: 118px;
+  z-index: 3;
+  font-size: 150px;
     text-align: center;
 }
 
 .learn-more-btn {
+  z-index: 2;
   clear: both;
 }
 .workshop-sub {
+  z-index: 1;
   position: relative;
     font-size: 22px;
 }
@@ -88,7 +93,7 @@ text-align: center;
   padding: 0 30px;
 }
 .vision-statement {
-  font-size: 28px;
+  font-size: 30px;
   font-family: sans-serif;
 }
 .pencil-wrench img {
