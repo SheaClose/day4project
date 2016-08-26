@@ -1,0 +1,104 @@
+/** {
+  box-sizing: border-box;
+}*/
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+.nav-bar {
+  height: 650px;
+  width: 100%;
+}
+.background-nav-photo {
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+background-size: cover;
+height: 650px;
+width: 100%;
+align-items: center;
+display: flex;
+}
+.logo-burger-bar{
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.WOT-Logo img{
+  height: 55px;
+  width: auto;
+  margin-left: 35px;
+}
+.hamburger-photo img {
+  height: 29px ;
+  width: auto;
+  margin-right: 35px;
+}
+.text-over-photo {
+  color: white;
+font-family: geneva;
+margin: auto;
+display: block;
+align-content: center;
+text-align: center;
+}
+.your-digital {
+  position: relative;
+    font-size: 25px;
+}
+.workshop {
+  font-size: 118px;
+    text-align: center;
+}
+
+.learn-more-btn {
+  clear: both;
+}
+.workshop-sub {
+  position: relative;
+    font-size: 22px;
+}
+.orange-solutions {
+  color: orange;
+}
+.learn-more-btn{
+  background-color: #bdd436;
+  height: 51px;
+  justify-content: center;
+  padding: 10px;
+  clear: both;
+  border-radius: 50px;
+  width: 152px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 15px;
+
+}
+.heres-how-it-works {
+  display: block;
+  text-align: center;
+  color: gray;
+  /* width: 80%; */
+  padding: 0 30px;
+}
+.vision-statement {
+  font-size: 28px;
+  font-family: sans-serif;
+}
+.pencil-wrench img {
+  height: 200px;
+  width: 200px;
+}
+.how-it-works {
+  font-family: sans-serif;
+  font-size: 55px;
+}
+.green-words {
+  color: #bdd436;
+}
