@@ -4,14 +4,14 @@
   margin: 0;
 }
 .nav-bar {
-  height: 650px;
+  height: 550px;
   width: 100%;
   z-index: 7;
 }
 .background-nav-photo {
   background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
 background-size: cover;
-height: 650px;
+height: 550px;
 width: 100%;
 align-items: center;
 display: flex;
@@ -52,6 +52,7 @@ text-align: center;
   z-index: 4;
   position: relative;
     font-size: 25px;
+    top: 20px;
 }
 .workshop {
   z-index: 3;
@@ -106,4 +107,29 @@ text-align: center;
 }
 .green-words {
   color: #bdd436;
+}
+.nav-link {
+  color: transparent;
+}
+@media (min-width: 769px)  {
+    .logo-burger-bar{
+      background-color: transparent;
+    }
+    .nav-link {
+      color: white;
+      flex: 1;
+      font-size: 20px;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+    .hamburger-photo {
+      display: none;
+    }
+    .WOT-Logo {
+      flex: 4;
+    }
+    .your-digital {
+      margin-right: 661px;
+    top: 36px;
+    }
 }
